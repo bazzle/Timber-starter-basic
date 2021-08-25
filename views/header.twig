@@ -1,0 +1,11 @@
+<header class="c-header">
+	<div class="c-header__menu-wrap js-primary-nav">
+		<div class="o-row o-row--no-margin o-row--mobile-loose c-header-main__menu-wrap">
+			<div class="o-grid-container">
+				<div class="c-header-main__menu">
+					{% include "menu.twig" with {'menu': navigation_primary.get_items} %}
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

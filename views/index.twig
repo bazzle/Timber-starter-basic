@@ -1,0 +1,16 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+
+<div class="page-content">
+
+	{% if fn('is_front_page') %}
+		{% include 'partials/loop.twig' %}
+	{% else %}
+		{% include 'partials/post.twig' %}
+	{% endif %}
+
+
+</div>
+
+{% endblock %}

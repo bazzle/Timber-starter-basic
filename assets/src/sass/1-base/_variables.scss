@@ -1,0 +1,87 @@
+$asset-path:'/wp-content/themes/starter/assets/src';
+$image-path:'/wp-content/themes/starter/assets/src/img';
+
+$header-height:147px;
+$header-height-mobile:82px;
+
+$font-primary: 'Proxima Nova Regular', sans-serif;
+$font-bold: 'Proxima Nova Bold', sans-serif;
+$font-display: 'Proxima Nova Bold', sans-serif;
+$font-secondary: sans-serif;
+
+$font-size-base: 62.5%;
+
+$reg: normal;
+$bold: 500;
+
+$site-width:1560px;
+$site-width-margins:calc(1560px + 30px);
+
+$break-mobile: 22.438em; // 359px
+$break-mobile-land: 32em; // 512px
+$break-tablet: 40.063em; // 641px
+$break-desktop: 50em; // 800px
+$break-desktop-mini: 55em; // 880px
+$break-desktop-med: 64.063em; // 1025px
+$break-mobile-nav: 68.125em; // 1090px
+$break-desktop-wide: 75em; // 1200px
+$break-desktop-wider: 83.75em; // 1340px
+$break-desktop-xl: 88em; // 1408px
+$break-site-width:$site-width;
+$break-site-width-margins:$site-width-margins;
+
+$break-tablet-under: 0 $break-tablet;
+$break-desktop-under: 0 $break-desktop;
+
+$grid-gap: clamp(0.5rem, 3vw, 4.5rem);
+
+$white: #fff;
+$black: #000;
+$red:rgb(230, 22, 22);
+
+// colors
+$color-red: #ed1a3b;
+$color-emerald: #218f8b;
+$color-ocean: #02A5E2;
+$color-charcoal: #333333;
+$color-pale-charcoal: #e7e7e7;
+$color-gold: #df8639;
+$color-slate: #657c91;
+$color-burgundy: #98002e;
+
+// Background colors
+$color-bg-1:#505050;
+$color-bg-2:#E7E7E7;
+$color-bg-3:#F2F2F2;
+$color-bg-4:#ffffff;
+$color-bg-feint:$color-bg-3;
+
+// for testing
+$gold: rgb(242, 208, 14);
+$yellow: rgb(255, 255, 0);
+
+// Text colors
+$color-text:#333333;
+$color-text-reverse: #ffffff;
+
+// line color
+$color-line:#F2F2F2;
+$color-line-dark:#d8d8d8;
+// for dark background
+$color-line-solid:#707070;
+$color-line-off-black:#333333;
+
+// standard border
+$borderline: 2px solid $color-line;
+$borderline-darker: 2px solid $color-line-dark;
+$borderline-solid: 2px solid $color-line-solid;
+
+$color-text-link:$red;
+
+
+$susy: (
+  'columns': susy-repeat(12),
+  'gutters': 0.25,
+  'spread': 'narrow',
+  'container-spread': 'narrow',
+);
